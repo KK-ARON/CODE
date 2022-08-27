@@ -13,6 +13,5 @@ def main():
             shutil.move(source,folder_name)
         else:
             shutil.move(source,folder_name)
-    #C:\Users\DELL\Documents\KYC\__MACOSX\寻梦远航实践队
 if __name__=='__main__':
     main()
