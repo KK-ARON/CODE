@@ -3,7 +3,7 @@ import shutil
 def main():
     path1=input('请输入需要整理的路径:')
     path2=path1.replace('\\','/')
-    print(path2)
+    #print(path2)
     files=os.listdir(path2)
     for item in files:
         folder_name=path2+'/'+item.split('.')[-1]
